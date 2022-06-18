@@ -974,6 +974,11 @@
       "type": "github_release"
     },
     {
+      "aliases": [
+        {
+          "name": "ahmetb/kubens"
+        }
+      ],
       "asset": "kubens_{{.Version}}_{{.OS}}_{{.Arch}}.{{.Format}}",
       "description": "Faster way to switch between clusters and namespaces in kubectl",
       "files": [
@@ -1007,30 +1012,6 @@
           "goos": "windows"
         }
       ],
-      "replacements": {
-        "386": "i386",
-        "amd64": "x86_64"
-      },
-      "repo_name": "kubectx",
-      "repo_owner": "ahmetb",
-      "type": "github_release"
-    },
-    {
-      "asset": "kubens_{{.Version}}_{{.OS}}_{{.Arch}}.{{.Format}}",
-      "description": "DEPRECATED. PLEASE USE ahmetb/kubectx/kubens",
-      "files": [
-        {
-          "name": "kubens"
-        }
-      ],
-      "format": "tar.gz",
-      "format_overrides": [
-        {
-          "format": "zip",
-          "goos": "windows"
-        }
-      ],
-      "name": "ahmetb/kubens",
       "replacements": {
         "386": "i386",
         "amd64": "x86_64"
@@ -7687,6 +7668,11 @@
       "type": "github_archive"
     },
     {
+      "aliases": [
+        {
+          "name": "talos-systems/conform"
+        }
+      ],
       "asset": "conform-{{.OS}}-{{.Arch}}",
       "description": "Policy enforcement for your pipelines",
       "format": "raw",
@@ -7696,6 +7682,11 @@
       "type": "github_release"
     },
     {
+      "aliases": [
+        {
+          "name": "talos-systems/talos"
+        }
+      ],
       "asset": "talosctl-{{.OS}}-{{.Arch}}",
       "description": "Talos is a modern OS for Kubernetes. talosctl is a CLI for out-of-band management of Kubernetes nodes created by Talos",
       "files": [
@@ -8137,27 +8128,6 @@
       ],
       "repo_name": "kube-psp-advisor",
       "repo_owner": "sysdiglabs",
-      "type": "github_release"
-    },
-    {
-      "asset": "conform-{{.OS}}-{{.Arch}}",
-      "description": "Policy enforcement for your pipelines",
-      "format": "raw",
-      "repo_name": "conform",
-      "repo_owner": "talos-systems",
-      "type": "github_release"
-    },
-    {
-      "asset": "talosctl-{{.OS}}-{{.Arch}}",
-      "description": "Talos is a modern OS for Kubernetes. talosctl is a CLI for out-of-band management of Kubernetes nodes created by Talos",
-      "files": [
-        {
-          "name": "talosctl"
-        }
-      ],
-      "format": "raw",
-      "repo_name": "talos",
-      "repo_owner": "talos-systems",
       "type": "github_release"
     },
     {
